@@ -1,7 +1,7 @@
 {
-  "name": "test_vue",
+  "name": "wifi-to-qrcode",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Generate qr-code with wifi password and auto copy password",
   "author": "sjfkai <sjfkai@163.com>",
   "private": true,
   "scripts": {

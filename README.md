@@ -1,21 +1,14 @@
-# test_vue
+# WIFI TO QR-CODE
 
-> A Vue.js project
+> Generate qr-code with wifi password and auto copy password
 
-## Build Setup
+# Introduction
 
-``` bash
-# install dependencies
-npm install
+## Generate
 
-# serve with hot reload at localhost:8080
-npm run dev
+![Generate](images/Generate.png)
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Scan
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![Scan](images/Scan.png)
