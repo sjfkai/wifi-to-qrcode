@@ -54,8 +54,10 @@ export default {
   },
   methods: {
     genQrcode: function genQrcode() {
+      const port = window.location.port ? `:${window.location.port}` : '';
+      const origin = window.location.origin || `${window.location.protocol}//${window.location.hostname}${port}`;
       if (this.wifiSsid && this.wifiPassword) {
-        this.url = `http://wifi.sjfkai.com/#/${this.wifiSsid}/${this.wifiPassword}`;
+        this.url = `${origin}/#/${this.wifiSsid}/${this.wifiPassword}`;
       }
     },
   },
